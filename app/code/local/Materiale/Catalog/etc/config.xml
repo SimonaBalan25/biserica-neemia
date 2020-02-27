@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Materiale_Catalog>
+            <version>0.0.1</version>
+        </Materiale_Catalog>
+    </modules>
+    <global>
+    	<blocks>
+            <catalog>
+                <rewrite>
+                    <product_list>Materiale_Catalog_Block_Product_List</product_list>
+                </rewrite>
+            </catalog>
+        </blocks>
+        <helpers>
+            <catalog>
+                <rewrite>
+                    <image>Materiale_Catalog_Helper_Image</image>
+                </rewrite>
+            </catalog>
+        </helpers>
+    </global>
+</config>

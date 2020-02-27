@@ -1,1 +1,4 @@
 media/**
+var/cache
+var/report
+var/session

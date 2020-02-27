@@ -1,0 +1,20 @@
+{* This is a comment block
+
+Variabile disponibile pentru acest template:
+  - name            Numele destinatarului
+  - email           Adresa de email a destinatarului
+  - product_name    Numele produslui
+  - product_url     Url-ul produsului
+  - product_image   Url-ul pentru imaginea mica (75 px) a produslui
+  - message         Mesajul personalizat al expeditorului
+  - sender_name     Numele expeditorului
+  - sender_email    Emailul expeditorului
+
+Use vars: {{var var_name}}
+*}<!--@subject {{var name}}, iti recomand urmatoarele materiale @-->
+
+Salut {{var name}},<br /><br />
+Iti recomand:<br/>
+<a href="{{var product_url}}">{{var product_name}}</a><br /><br />
+{{var message}}<br /><br />
+O zi buna!

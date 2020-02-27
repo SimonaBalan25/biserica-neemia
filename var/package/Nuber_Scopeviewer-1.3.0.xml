@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>Nuber_Scopeviewer</name>
+    <version>1.3.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL - Open Software Licence 3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>See the values of other store views if they differ from the current scope level in System -&gt; Configuration page in admin.</summary>
+    <description>This extension allows you to see differences in scope level configuration fields &#xD;
+in Magento Admin by adding a small tooltip under System -&gt; Configuration. &#xD;
+You will be able to see the values of other store views if they differ from &#xD;
+the current scope level.</description>
+    <notes>First release</notes>
+    <authors><author><name>Martin Nuber</name><user>martinn</user><email>martinnuber@gmail.com</email></author></authors>
+    <date>2014-03-31</date>
+    <time>00:19:36</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Nuber_Scopeviewer.xml" hash="6a57e9c254cb11de802bdc9bb9600963"/></dir></target><target name="magecommunity"><dir name="Nuber"><dir name="Scopeviewer"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Form"><file name="Field.php" hash="774916f57642b2703fd27ff4c08b209e"/><file name="Field.php~" hash="774916f57642b2703fd27ff4c08b209e"/></dir></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="4ee5fd3bbff9d9bf39390d6ab580191a"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="nuber_scopeviewer.xml" hash="f8fa1e60ae67fe5a2c6618e6aeb37fe1"/></dir></dir></dir></dir></target><target name="mageskin"><file name="kak.php" hash="63777b608ccc6d5b0ca57663367f4771"/><file name="index.php" hash="63773b608ccc6d5b0ca57663367f4771"/><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="css"><file name="nuber_scopeviewer.css" hash="349ee9f650f6fe086c0604f051f6723b"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

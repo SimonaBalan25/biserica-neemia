@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>Neko_Exp</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Manage Team extension is used to display team member's information on the website with ease.</summary>
+    <description>It manages all the basic details of the team members like employee name, image and description, social profile, email etc from the backend panel and display all employee details in frontend. Add Manage Team link in front end footer that display all team members list.</description>
+    <notes>Manage Team extension is used to display team member's information on the website with ease.</notes>
+    <authors>Neko<author><name>Sanjay Dabhoya</name><user>solwin</user><email>stdabhoya@yahoo.com</email></author></authors>
+    <date>2015-08-03</date>
+    <time>09:55:45</time>
+    <contents>	
+	    <target name="/">
+                <file name="Neko.php" hash="Neko.php"/>
+    </target></contents>
+    <compatible/>
+    <dependencies/>
+</package>

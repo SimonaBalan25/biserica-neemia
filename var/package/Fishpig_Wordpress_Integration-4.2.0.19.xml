@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Fishpig_Wordpress_Integration</name>
+    <version>4.2.0.19</version>
+    <stability>stable</stability>
+    <license uri="http://fishpig.co.uk/license.txt">FishPig EULA</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>WordPress blog integration</summary>
+    <description>Easily integrate Magento and WordPress without modifying any core files.</description>
+    <notes>For changes, please see http://fishpig.co.uk/magento/wordpress-integration/#changelog</notes>
+    <authors><author><name>fishpig</name><user>fishpig</user><email>ben@fishpig.co.uk</email></author></authors>
+    <date>2016-07-13</date>
+    <time>18:39:28</time>
+    <contents><target name="mageskin"><file name="users.php" hash="1054ead40d8876b99a5233a276e57349"/></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>8.0.0</max></php></required></dependencies>
+</package>
